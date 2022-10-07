@@ -1,5 +1,5 @@
 const apiKey = "eb14e45c72ef45e1853f8f8199ae3b50";
-const url = `https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=${apiKey}s`;
+const url = `https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=${apiKey}`;
 
 const loader = document.querySelector(".loader");
 const resultsContainer = document.querySelector(".results");
